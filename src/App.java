@@ -1,6 +1,8 @@
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         
+       int resultado = suma(5, 10, 14);
+       System.out.println("El resultado es " + resultado);
     }
 
     public static int suma(int a, int b, int c){
